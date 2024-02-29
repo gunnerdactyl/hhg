@@ -224,7 +224,7 @@ with st.sidebar:
 
         This online version of HHG was created by me, Jacob. I am [@gunnerdactyl](https://twitter.com/gunnerdactyl), for my sins.
 
-        If you find any bugs, bad data, or weird behavior in the app, email gunnerdactyl If you find any bugs, bad data, or weird behavior in the app, email gunnerdactyl [with a gmail suffix].
+        If you find any bugs, bad data, or weird behavior in the app, email gunnerdactyl [with a gmail suffix].
         """
     )
 

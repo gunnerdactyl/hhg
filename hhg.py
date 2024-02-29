@@ -212,6 +212,7 @@ def new_game_reset():
     st.session_state["goal_scorer_response"] = None
 
 with st.sidebar:
+    st.title("HHG")
     st.header("Scoreboard")
     player1_col, player2_col = st.columns(2, )
     with player1_col:

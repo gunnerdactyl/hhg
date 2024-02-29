@@ -4,17 +4,6 @@ from thefuzz import fuzz, process
 
 
 st.title("Happy Hunting Grounds")
-st.markdown(
-    """
-    Happy Hunting Grounds (HHG) is a game where players test their knowledge of Premier League away goals.
-
-    The game format was created by [Adam Hurrey](https://twitter.com/footballcliches) for the [Football Cliches podcast](https://linktr.ee/footballcliches).
-
-    This online version of HHG was created by me, Jacob. I am [@gunnerdactyl](https://twitter.com/gunnerdactyl), for my sins.
-
-    If you find any bugs, bad data, or weird behavior in the app, email gunnerdactyl [at] gmail.
-    """
-)
 
 if "player1_name" not in st.session_state:
     st.session_state["player1_name"] = "Player 1"
@@ -226,6 +215,18 @@ with st.sidebar:
             st.session_state["player2_name"] = player2_name
         
         st.markdown(f"<h1 style='text-align: center;'>{st.session_state['player2_score']}</h1>", unsafe_allow_html=True)
+
+    st.markdown(
+        """
+        Happy Hunting Grounds (HHG) is a game where players test their knowledge of Premier League away goals.
+
+        The game format was created by [Adam Hurrey](https://twitter.com/footballcliches) for the [Football Cliches podcast](https://linktr.ee/footballcliches).
+
+        This online version of HHG was created by me, Jacob. I am [@gunnerdactyl](https://twitter.com/gunnerdactyl), for my sins.
+
+        If you find any bugs, bad data, or weird behavior in the app, email gunnerdactyl If you find any bugs, bad data, or weird behavior in the app, email gunnerdactyl [with a gmail suffix].
+        """
+    )
 
 SEASONS = [f"{yy}-{yy+1}" for yy in range(1992, 2023)]
 

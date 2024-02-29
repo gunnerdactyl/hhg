@@ -52,6 +52,12 @@ with st.expander("Instructions and game details"):
 
         If the player correctly names a goalscorer for the given team at the given venue, they receive points equal to half the difficulty level. If they also get the season correct, they receive the other half of the points. No points are awarded for having the correct season but an incorrect name.
 
+        ### Fuzzy name matching
+
+        Goal scorer responses are fuzzy-matched with the correct answers, so perfect spelling is not required, but the closer you are, the better.
+
+        For best results, use both first and last names. This is especially true for players whose names include accented characters or other characters not part of the standard English alphabet. For example, if you want to guess `İlkay Gündoğan`, entering `gundogan` will _not_ meet the threshold for a correct answer, but `ilkay gundogan` will be a successful match.
+
         ## Difficulty levels
 
         The difficulty level of a hunting ground is set using a combination of team performance and the number of away goals scored by a team at a particular venue. This reflects two guiding assumptions about difficulty:

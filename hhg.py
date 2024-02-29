@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 from thefuzz import fuzz, process
 
-st.set_page_config(page_title=HHG, page_icon=st.image("./favicon-16x16.png"), layout="wide", menu_items={"Report a Bug": "mailto:gunnerdactyl@gmail.com"})
+st.set_page_config(page_title="HHG", page_icon=st.image("./favicon-16x16.png"), layout="wide", menu_items={"Report a Bug": "mailto:gunnerdactyl@gmail.com"})
 
 st.title("Happy Hunting Grounds")
 

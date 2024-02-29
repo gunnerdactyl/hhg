@@ -80,10 +80,10 @@ with st.expander("Instructions and details"):
         | 8 |  Watford @ Cardiff City Stadium |
         | 9 |  Brentford @ Turf Moor |
         | 10 |  Ipswich Town @ Selhurst Park |
-
-
         """            
     )
+
+st.info("The data covers the Premier League seasons from 1992/1993 through 2022/2023. 2023/2024 goals are _not_ included.", icon="ℹ️")
 
 
 @st.cache_data
@@ -217,7 +217,7 @@ with st.sidebar:
         st.markdown(f"<h1 style='text-align: center;'>{st.session_state['player2_score']}</h1>", unsafe_allow_html=True)
 
     st.divider()
-    
+
     st.markdown(
         """
         Happy Hunting Grounds (HHG) is a game where players test their knowledge of Premier League away goals.

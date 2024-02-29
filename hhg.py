@@ -216,6 +216,8 @@ with st.sidebar:
         
         st.markdown(f"<h1 style='text-align: center;'>{st.session_state['player2_score']}</h1>", unsafe_allow_html=True)
 
+    st.divider()
+    
     st.markdown(
         """
         Happy Hunting Grounds (HHG) is a game where players test their knowledge of Premier League away goals.

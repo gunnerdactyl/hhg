@@ -37,8 +37,9 @@ if "progress_buttons_disabled" not in st.session_state:
     st.session_state["progress_buttons_disabled"] = True
 
 
+st.info("The data covers the Premier League seasons from 1992/1993 through 2022/2023. Goals from 2023/2024 are _not_ included.", icon="ℹ️")
 
-with st.expander("Instructions and details"):
+with st.expander("Instructions and game details"):
     st.markdown(
         """
         ## Gameplay
@@ -82,8 +83,6 @@ with st.expander("Instructions and details"):
         | 10 |  Ipswich Town @ Selhurst Park |
         """            
     )
-
-st.info("The data covers the Premier League seasons from 1992/1993 through 2022/2023. 2023/2024 goals are _not_ included.", icon="ℹ️")
 
 
 @st.cache_data
